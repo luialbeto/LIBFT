@@ -1,2 +1,2 @@
-# 42
+# LIBFT
 Projects developed at 42
