@@ -6,7 +6,7 @@
 /*   By: lalberto <lalberto@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/15 08:20:54 by lalberto          #+#    #+#             */
-/*   Updated: 2021/09/19 10:10:59 by lalberto         ###   ########.fr       */
+/*   Updated: 2021/09/19 20:13:11 by lalberto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,12 +26,17 @@ int ft_isdigit(int c);
 
 int ft_isalnum(int c);
 
-// ft_isascii
-// ft_isprint
+void Ft_bzero(void *s, size_t n);
+
+int ft_isascii(int c);
+
+int ft_isprint(int c);
+
+int ft_strlen(const char *str);
+
 // ft_strchr
 // ft_strcpy
 // ft_strdup
-// ft_strlen
 // ft_strrchr
 
 #endif
