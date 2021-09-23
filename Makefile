@@ -6,7 +6,7 @@
 #    By: lalberto <lalberto@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/09/07 15:11:22 by araujo            #+#    #+#              #
-#    Updated: 2021/09/19 12:55:31 by lalberto         ###   ########.fr        #
+#    Updated: 2021/09/20 08:49:50 by lalberto         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,8 @@ SRCS =	ft_toupper.c	\
 		ft_isalnum.c	\
 		ft_isascii.c	\
 		ft_isprint.c	\
-		ft_strlen.c
+		ft_strlen.c		\
+		ft_memset.c
 
 LIB = libft.h
 OBJS = ${SRCS:%.c=%.o}

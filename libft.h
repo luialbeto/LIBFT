@@ -6,7 +6,7 @@
 /*   By: lalberto <lalberto@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/15 08:20:54 by lalberto          #+#    #+#             */
-/*   Updated: 2021/09/19 20:13:11 by lalberto         ###   ########.fr       */
+/*   Updated: 2021/09/22 08:18:36 by lalberto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,9 @@ int ft_isascii(int c);
 
 int ft_isprint(int c);
 
-int ft_strlen(const char *str);
+size_t ft_strlen(const char *str);
+
+void *ft_memset(void *s, int c, size_t n);
 
 // ft_strchr
 // ft_strcpy
